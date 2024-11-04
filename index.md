@@ -18,4 +18,3 @@
 	};
 </script>
 <script type='text/javascript' src='https://mtechmdm--voicebox.sandbox.my.site.com/ESWSonimChatSupport1723196645426/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
