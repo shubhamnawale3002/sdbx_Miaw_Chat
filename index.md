@@ -3,7 +3,7 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-			
+			localStorage.setItem('embeddedMessagingLanguage', embeddedservice_bootstrap.settings.language);
 			embeddedservice_bootstrap.init(
 				'00DTH000000t9kD',
 				'Sonim_Chat_Support',
