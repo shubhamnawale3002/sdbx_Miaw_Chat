@@ -4,13 +4,12 @@
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			embeddedservice_bootstrap.settings.omitSandbox = true;
-			
 			embeddedservice_bootstrap.init(
-				'00DTH000000t9kD',
-				'Sonim_Chat_Support',
-				'https://mtechmdm--voicebox.sandbox.my.site.com/ESWSonimChatSupport1723196645426',
+				'00DHr00000IGvvi',
+				'Agentforce_Service_Agent_ESD',
+				'https://in1738905200956.my.site.com/ESWAgentforceServiceAge1739166687729',
 				{
-					scrt2URL: 'https://mtechmdm--voicebox.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://in1738905200956.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,4 +17,5 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://mtechmdm--voicebox.sandbox.my.site.com/ESWSonimChatSupport1723196645426/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://in1738905200956.my.site.com/ESWAgentforceServiceAge1739166687729/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
