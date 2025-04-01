@@ -6,6 +6,7 @@
 			console.log('Setting language for embedded service:', 'en_US');
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			console.log('Language set successfully.');
+			embeddedservice_bootstrap.settings.omitSandbox = false;
 
 			console.log('Preparing to initialize embedded service with parameters:', {
 				orgId: '00D5j00000DCDP7',
